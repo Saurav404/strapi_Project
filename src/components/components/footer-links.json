@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_footer_links",
+  "info": {
+    "displayName": "footerLinks",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "parent_name": {
+      "type": "string"
+    },
+    "childLinksComponents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.child-links-components"
+    }
+  }
+}

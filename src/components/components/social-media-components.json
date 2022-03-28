@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_social_media_components",
+  "info": {
+    "displayName": "socialMediaComponents",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

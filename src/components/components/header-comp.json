@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_header_comps",
+  "info": {
+    "displayName": "headerComp",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "parent_name": {
+      "type": "string"
+    },
+    "parent_url": {
+      "type": "string"
+    },
+    "childLinksComponents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.child-links-components"
+    }
+  }
+}
