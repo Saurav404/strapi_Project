@@ -2,24 +2,21 @@
   "collectionName": "components_section_blog_posts",
   "info": {
     "displayName": "blogPost",
-    "icon": "adjust"
+    "icon": "adjust",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "bg_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "post": {
-      "type": "component",
-      "repeatable": false,
-      "component": "components.post"
+      ]
     }
   }
 }

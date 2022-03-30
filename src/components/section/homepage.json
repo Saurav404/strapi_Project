@@ -20,11 +20,6 @@
     },
     "title": {
       "type": "string"
-    },
-    "post": {
-      "type": "component",
-      "repeatable": true,
-      "component": "components.post"
     }
   }
 }
